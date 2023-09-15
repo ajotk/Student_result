@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" type="text/css">
+  <title>CCSIT-Events</title>
+</head>
+<div class="container">
+<header class="heading">
+<img src="Uni_of_cali.png" class="img" alt="logo"> 
+ <h1>CCSIT Muttil</h1>
+   <div class="wrapper">
+	<nav>
+		
+		<ul>
+			<li><a href="index.php">HOME</a></li>
+			<li><a href="courses.html">COURSES</a></li>
+			<li><a href="events.html">EVENTS</a></li>
+			<li><a href="contact.html   ">CONTACT</a></li>
+		</ul>
+	 </nav>
+	</div>
+	<div class="social">
+		<div class="dropdown">
+			  <a button class="button"  >Login/Signup</a></button>
+			<div class="dropdown-content">
+			  <a href="signin.html">Student login</a>
+			  <a href="signin.html">Faculty login</a>
+			  <a href="admlog.html">Admin login</a>
+			</div>
+		</div>
+		  
+</header>
+<body>
+	<style>/* Style inputs with type="text", select elements and textareas */
+	input[type=text], select, textarea {
+	  width: 100%; /* Full width */
+	  padding: 12px; /* Some padding */ 
+	  border: 1px solid #ccc; /* Gray border */
+	  border-radius: 4px; /* Rounded borders */
+	  box-sizing: border-box; /* Make sure that padding and width stays in place */
+	  margin-top: 6px; /* Add a top margin */
+	  margin-bottom: 16px; /* Bottom margin */
+	  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	}
+	
+	/* Style the submit button with a specific background color etc */
+	input[type=submit] {
+	  background-color:blue;
+	  color: white;
+	  padding: 12px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+	
+	/* When moving the mouse over the submit button, add a darker green color */
+	input[type=submit]:hover {
+	  background-color: #45a049;
+	}
+	
+	/* Add a background color and some padding around the form */
+	.container {
+	  border-radius: 5px;
+	  background-color: #f2f2f2;
+	  padding: 20px;
+	}</style>
+	<div class="container">
+		<form action="action_page.php">
+	  
+		  <label for="fname">First Name</label>
+		  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+	  
+		  <label for="lname">Last Name</label>
+		  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	  
+		
+	  
+		  <label for="subject">Subject</label>
+		  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+	  
+		  <input type="submit" value="Submit">
+	  
+		</form>
+	</div>
+	
+	
+	<footer class="footer">&copy; CCSIT Muttil</footer>
+	<script src="./script.js"></script>
+</body>
+</html>
